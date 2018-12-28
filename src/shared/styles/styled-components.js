@@ -119,11 +119,11 @@ export const UnderlinedLink = styled.a`
   }
 `;
 
-export const DescriptionText = styled.p`
+export const DescriptionText = styled.em`
   color: #d8b5ab;
   font-weigth: 70;
-  font-size: 12px; 
-  margin-top: 1px;
+  font-size: 12px;
+  margin-left: 5px;
 `;
 
 export const ShowMoreButton = styled.button`

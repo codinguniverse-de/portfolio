@@ -23,7 +23,7 @@ const Blogs = ({ posts }) => {
             CodingUniverse
           </UnderlinedLink>
           <DescriptionText>
-            I am blogging mostly in German language
+          (I am blogging mostly in German language)
           </DescriptionText>
         </Point>
       </Points>
