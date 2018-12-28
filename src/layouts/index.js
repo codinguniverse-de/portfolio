@@ -42,14 +42,14 @@ const TemplateWrapper = ({ children }) => (
         paddingTop: 0
       }}
     >
-      {children()}
+      {children}
     </div>
     <Footer />
   </div>
 );
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func
+  children: PropTypes.object
 };
 
 export default TemplateWrapper;

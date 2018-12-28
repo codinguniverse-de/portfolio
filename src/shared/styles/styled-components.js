@@ -115,8 +115,15 @@ export const UnderlinedLink = styled.a`
       border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
     `} padding-bottom: 1px;
   &:hover {
-    color: #a96851;
+    color: #d8b5ab;
   }
+`;
+
+export const DescriptionText = styled.p`
+  color: #d8b5ab;
+  font-weigth: 70;
+  font-size: 12px; 
+  margin-top: 1px;
 `;
 
 export const ShowMoreButton = styled.button`

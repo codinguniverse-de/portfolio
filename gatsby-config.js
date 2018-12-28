@@ -19,7 +19,7 @@ module.exports = {
         display: "minimal-ui",
         icons: [
           {
-            src: `/src/assets/favicon.ico`,
+            src: `/static/assets/favicon.ico`,
             sizes: `32x32`,
             type: `image/ico`
           }
@@ -28,11 +28,15 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-source-wordpress',
       options: {
-        trackingId: "UA-96738144-3",
-        // Setting this parameter is optional (requried for some countries such as Germany)
-        anonymize: true
+        baseUrl: 'codinguniverse.de',
+        protocol: 'https',
+        hostingWPCOM: false,
+        useACF: false,
+        includedRoutes: [
+          "/*/*/posts"
+        ]
       }
     },
     {

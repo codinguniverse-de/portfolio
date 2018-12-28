@@ -11,7 +11,7 @@ const Header = () => (
           about
         </Link>
         &nbsp;/&nbsp;
-        <a href="https://codinguniverse.de" target="_blank" rel="noopener">
+        <a href="https://codinguniverse.de">
           blog
         </a>
       </h2>
